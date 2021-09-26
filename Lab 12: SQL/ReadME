@@ -1,2 +1,5 @@
 1. put sqlite3.exe into lab12 folter
 2. run ./sqlite3 --init lab12.sql instead of python3 sqlite_shell.py --init lab12.sql
+
+correct testing query
+SELECT song, pet FROM students WHERE color = "blue" AND date = "12/25";
